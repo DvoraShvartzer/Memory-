@@ -1,0 +1,171 @@
+body{
+    /* background-image: url(https://iris-bs.co.il/wp-content/uploads/2021/01/100114-1024x718.jpg); */
+    display: flex;
+    align-items: center;flex-direction: column;
+}
+
+#connect {
+
+    margin: 10% 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#start-again,
+#endPlay {
+    display: none;
+    margin: 5% auto;
+    font-size: medium
+}
+
+#AA {
+    display: block;
+
+    margin: 5% auto;
+    font-size: medium
+}
+
+#change-display {
+    display: block;
+}
+
+button {
+
+    padding: 15px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+input:hover {
+    width: 50%;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+}
+
+#btn {
+    margin: auto;
+}
+
+#btn * {
+    border-radius: 50%;
+}
+
+/* .level{
+    width:25%;
+    margin:5% ;
+} */
+#remembered div {
+    margin: 1%
+}
+
+/* #choose-level{
+   display: block;
+   margin: auto;
+   padding-left: 22%;
+   padding-right: 22%;
+
+} */
+img {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 85%;
+    /* object-fit: contain;
+    border: 2px solid white; */
+}
+
+#choose-timer {
+    background-color: burlywood;
+    margin: 20px 5px;
+
+    width: 450px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 35%;
+
+    color: white;
+
+}
+
+#remembered {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0% 23%;
+    justify-content: center;
+}
+
+h4,
+h3 {
+    color: turquoise;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h3 {
+    font-size: 25px;
+    color: rgb(51, 176, 164);
+    text-align: center;
+    /* text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight:bolder;
+    color:lime; */
+}
+
+form input {
+    width: 300px;
+    background-color: transparent;
+
+    border-radius: 5px;
+    border-width: 0px 0px 3px 0px;
+    border-color: #002060;
+    font-size: inherit;
+    line-height: inherit;
+    height: 40px;
+
+    text-align: center;
+    margin: auto;
+    /* border-top: none;
+   border-left: none;
+   border-right: none; */
+    border-bottom: 3px solid darkslategrey;
+}
+
+form button {
+    background-color: burlywood;
+    border-radius: 100%;
+    margin: 20px 5px;
+    padding: 30px 10px;
+    width: 200px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid black;
+
+}
+
+#remembered Button {
+    margin-top: 20px;
+    font-size: 0;
+    color: white;
+    margin: 15px;
+    padding: 0px;
+    border-radius: 85%;
+}
+
+#theWinner p {
+    text-align: center;
+    font-size: large;
+}
+
+.changeDisplay {
+    display: none;
+}
